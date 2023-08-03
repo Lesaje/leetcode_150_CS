@@ -1,2 +1,5 @@
-﻿int[] arr = {7,1,5,3,6,4};
-Console.WriteLine(SlidingWindow.MaxProfit(arr));
+﻿using Leetcode150;
+
+int[] arr = {2,7,4,1,8,1};
+
+Console.WriteLine(Heap.LastStoneWeight(arr));
