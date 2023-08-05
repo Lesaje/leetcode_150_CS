@@ -1,5 +1,8 @@
 ﻿using Leetcode150;
 
-int[] arr = {2,7,4,1,8,1};
+int[][] arr = new int[][]
+{
+    new int[] { 1, 5 },
+};
 
-Console.WriteLine(MathGeometry.IsHappy(13));
+Console.WriteLine(Greedy.Jump(new int[] {1, 2, 3}));
